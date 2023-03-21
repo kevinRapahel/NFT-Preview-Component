@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(217, 54%, 11%);
+}
+
+.main{
+    text-align: center;
+    color: white;
+    margin: 80px 70px;
+    padding: 25px 0 5px 0;
+    border-radius: 20px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.container{
+    /* text-align: left; */
+}
+
+.img img{
+    border-radius: 10px;
+}
+
+.img img:hover{
+    position: relative;
+    z-index: 1;
+    background-image: url(/images/icon-view.svg);
+    background-color: hsl(178, 100%, 50%);
+    cursor: pointer;
+    background-blend-mode: multiply;
+}
+
+.second{
+    text-align: left;
+    margin: 20px;
+}
+
+.equilibrium{
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Outfit', sans-serif;
+    transition: 0.3s ease;
+}
+
+.equilibrium:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.collection{
+    line-height: 27px;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+
+.all{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+    padding-bottom: 15px;
+}
+
+.days{
+    color: hsl(215, 51%, 70%);
+}
+
+.number{
+    color: hsl(178, 100%, 50%);
+}
+
+.eth{
+    display: flex;
+    gap: 8px;
+}
+
+.all2{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    color: hsl(215, 51%, 70%);
+}
+
+.avatar{
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.jules{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+span:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+span{
+    color: hsl(0, 0%, 100%);
+    transition: 0.3s ease;
+}
+
+@media screen and (min-width:700px) {
+    
+    .main{
+        margin: 70px 600px;
+    }
+}
